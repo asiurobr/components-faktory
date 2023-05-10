@@ -1,13 +1,13 @@
 import React from "react";
 
-export interface IButton {
+export interface QuillButton {
     label: string;
 }
 
-const Button = ( props: IButton ) => {
+const QuillButton = ( props: QuillButton ) => {
     return (
         <button>{ props.label }</button>
     )
 };
 
-export default Button;
+export default QuillButton;

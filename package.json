@@ -1,5 +1,5 @@
 {
-  "name": "components-faktory",
+  "name": "@asiurobr/components-faktory",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "rollup": "rollup -c"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/asiurobr"
   },
   "author": "",
   "license": "ISC",
