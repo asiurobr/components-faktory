@@ -1,6 +1,6 @@
 {
   "name": "@asiurobr/components-faktory",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "module": "./dist/index.esm.js",
@@ -16,12 +16,16 @@
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.1.0",
     "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-terser": "^0.4.1",
     "@rollup/plugin-typescript": "^11.1.0",
     "@types/react": "^18.2.6",
-    "react": "^18.2.0",
     "rollup": "^3.21.5",
     "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
     "tslib": "^2.5.0",
     "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
   }
 }
