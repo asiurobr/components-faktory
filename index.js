@@ -2801,9 +2801,9 @@ if (process.env.NODE_ENV === 'production') {
 var reactExports = react.exports;
 var React = /*@__PURE__*/getDefaultExportFromCjs(reactExports);
 
-var Button = function (props) {
+var QuillButton = function (props) {
     return (React.createElement("button", null, props.label));
 };
 
-exports.Button = Button;
+exports.QuillButton = QuillButton;
 //# sourceMappingURL=index.js.map

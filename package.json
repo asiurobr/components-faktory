@@ -3,11 +3,10 @@
   "version": "1.0.1",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "module": "./dist/index.esm.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rollup": "rollup -c"
+    "rollup": "rollup -c --bundleConfigAsCjs"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/asiurobr"

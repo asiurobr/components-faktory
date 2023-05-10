@@ -1,6 +1,6 @@
 import React from "react";
-export interface IButton {
+export interface QuillButton {
     label: string;
 }
-declare const Button: (props: IButton) => React.JSX.Element;
-export default Button;
+declare const QuillButton: (props: QuillButton) => React.JSX.Element;
+export default QuillButton;
