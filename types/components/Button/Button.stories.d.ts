@@ -1,15 +1,19 @@
 /// <reference types="react" />
+import { QuillButtonSize, QuillButtonType } from './Button';
 declare const _default: {
     component: (props: import("./Button").IQuillButton) => import("react").JSX.Element;
 };
 export default _default;
-export declare const HelloWorld: {
+export declare const Primary: {
     args: {
         label: string;
-    };
-};
-export declare const ClickMe: {
-    args: {
-        label: string;
+        type: QuillButtonType;
+        disabled: boolean;
+        size: QuillButtonSize;
+        buttonAsText: boolean;
+        setIcon: {
+            icon: string;
+            position: string;
+        };
     };
 };
