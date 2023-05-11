@@ -5,6 +5,11 @@ export const Primary = { args: {
         label: 'Button',
         type: QuillButtonType.PRIMARY,
         disabled: false,
-        size: QuillButtonSize.LARGE
+        size: QuillButtonSize.LARGE,
+        buttonAsText: false,
+        setIcon: {
+            icon: 'user',
+            position: 'left'
+        }
     }
 }

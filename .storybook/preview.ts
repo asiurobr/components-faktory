@@ -1,4 +1,6 @@
 import type { Preview } from "@storybook/react";
+import '@fortawesome/fontawesome-free/css/all.css';
+
 
 const preview: Preview = {
   parameters: {
