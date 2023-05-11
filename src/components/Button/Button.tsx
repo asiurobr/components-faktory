@@ -1,6 +1,6 @@
 import React from "react";
 import QuillIcon from "../Icon/Icon";
-import "./Button.css";
+import "./Button.scss";
 
 export interface IQuillButton {
     label: string;
@@ -12,6 +12,8 @@ export interface IQuillButton {
         position: 'left' | 'right',
         icon: string;
     }
+    customClass?: string;
+    onClick?: () => void
 }
 
 export enum QuillButtonType {
@@ -35,6 +37,7 @@ const QuillButton = ( props: IQuillButton ) => {
         ${ asText } 
         quill-button__${type} 
         quill-button__${size} 
+        ${props.customClass}
     `;
     let content;
     if( props.setIcon ) {
@@ -48,7 +51,9 @@ const QuillButton = ( props: IQuillButton ) => {
         <>
         <button  
             disabled={!!props.disabled} 
-            className={classes}>
+            className={classes}
+            onClick={props.onClick}
+            >
                 { content }
         </button>
         </>

@@ -9,7 +9,8 @@ export const Primary = { args: {
         buttonAsText: false,
         setIcon: {
             icon: 'user',
-            position: 'left'
-        }
+            position: 'right'
+        },
+        onClick: ( e: any ) => console.log( e )
     }
 }
