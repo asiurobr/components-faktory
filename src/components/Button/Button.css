@@ -1,4 +1,4 @@
-.quill-button {
+/*.quill-button {
     padding: 12px 32px;
     border-radius: 4px;
     display: flex;
@@ -106,4 +106,107 @@
             color: rgba(216, 216, 216, 1);
         }
     }
+}*/
+
+.quill-button {
+    padding: 12px 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.quill-button__large {
+    height: 48px;
+}
+.quill-button__medium {
+    height: 40px;
+}
+.quill-button__small {
+    height: 32px;
+}
+.quill-button__primary {
+    background: #e10098;
+    color: #fff;
+    border: none;
+}
+.quill-button__primary:hover {
+    background-color: #c20083;
+}
+.quill-button__primary:disabled {
+    background-color: #ff87d8;
+}
+.quill-button__secondary {
+    background: #fff;
+    color: rgba(225, 0, 152, 1);
+    border: 1px solid rgba(225, 0, 152, 1);
+}
+.quill-button__secondary:hover {
+    color: rgba(194, 0, 131, 1);
+    border: 1px solid rgba(194, 0, 131, 1);
+}
+.quill-button__secondary:disabled {
+    color: rgba(255, 135, 216, 1);
+    border: 1px solid rgba(255, 135, 216, 1);
+}
+.quill-button__tertiary {
+    background: #fff;
+    color: rgba(173, 168, 168, 1);
+    border: 1px solid rgba(173, 168, 168, 1);
+}
+.quill-button__tertiary:hover {
+    color: rgba(51, 51, 51, 1);
+    border: 1px solid rgba(51, 51, 51, 1);
+}
+.quill-button__tertiary:disabled {
+    color: rgba(216, 216, 216, 1);
+    border: 1px solid rgba(216, 216, 216, 1);
+}
+.quill-button__primary-as-text {
+    border: none !important;
+    background-color: #fff !important;
+    color: #e10098;
+}
+.quill-button__primary-as-text:hover:not(:disabled) {
+    text-decoration: underline;
+    color: #c20083;
+}
+.quill-button__primary-as-text:disabled {
+    color: #ff87d8;
+}
+.quill-button__secondary-as-text {
+    border: none !important;
+    background-color: #fff !important;
+    color: rgba(225, 0, 152, 1);
+}
+.quill-button__secondary-as-text:hover:not(:disabled) {
+    text-decoration: underline;
+    color: #c20083;
+}
+.quill-button__secondary-as-text:disabled {
+    color: #ff87d8;
+}
+.quill-button__secondary-as-text {
+    border: none !important;
+    background-color: #fff !important;
+    color: #e10098;
+}
+.quill-button__secondary-as-text:hover:not(:disabled) {
+    text-decoration: underline;
+    color: rgba(194, 0, 131, 1);
+}
+.quill-button__secondary-as-text:disabled {
+    color: rgba(255, 135, 216, 1);
+}
+.quill-button__tertiary-as-text {
+    border: none !important;
+    background-color: #fff !important;
+    color: rgba(173, 168, 168, 1);
+}
+.quill-button__tertiary-as-text:hover:not(:disabled) {
+    text-decoration: underline;
+    color: rgba(51, 51, 51, 1);
+}
+.quill-button__tertiary-as-text:disabled {
+    color: rgba(216, 216, 216, 1);
 }

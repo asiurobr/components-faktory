@@ -1,6 +1,6 @@
 import React from "react";
 import QuillIcon from "../Icon/Icon";
-import "./Button.scss";
+import "./Button.css";
 
 export interface IQuillButton {
     label: string;
